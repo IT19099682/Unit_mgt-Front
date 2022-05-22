@@ -30,7 +30,7 @@ $(document).on("click", "#btnSave", function(event) {
 		dataType : "text",
 		complete : function(response, status)
 		{
-			onPaymentSaveComplete(response.responseText, status);
+			onUnitSaveComplete(response.responseText, status);
 		},
 		 processData : false,
 		 contentType :false
